@@ -4,7 +4,7 @@ font-family: 'League Spartan', sans-serif;
 font-family: 'Noto Sans Display', sans-serif;
 font-family: 'Play', sans-serif;*/
 :root {
-  --branding-color: rebeccapurple;
+  --branding-color: #e3fba2;
   --secondary-color: pink;
   --heading-font-family: "Play", sans-serif;
   --default-font-family: "Poppins", sans-serif;
@@ -15,6 +15,7 @@ body {
 h1 {
   font-family: var(--heading-font-family);
   font-size: 96px;
+  line-height: 1.5;
 }
 .hero {
   background: var(--secondary-color);
@@ -31,7 +32,7 @@ h1 {
   font-family: var(--default-font-family);
   font-weight: normal;
   font-size: 24px;
-  line-height: 2;
+  line-height: 1.5;
 }
 .btn-branding {
   border-radius: 4px;
@@ -39,11 +40,26 @@ h1 {
   background: var(--branding-color);
   font-size: 18px;
   line-height: 27px;
-  padding: 12px 20px;
+  padding: 15px 30px;
+}
+.btn-branding-outline {
+  font-size: 18px;
+  line-height: 27px;
+  padding: 15px 30px;
+  border-radius: 4px;
+  color: var(--branding-color);
+  border: 1px solid var(--branding-color);
 }
 p {
   font-weight: normal;
   font-size: 16px;
+  line-height: 30px;
+}
+.appname {
+  font-size: 64px;
+}
+.project-description {
+  padding: 120px 60px;
 }
 .navigation-links {
   display: flex;
@@ -99,7 +115,7 @@ p {
 .navbar-toggler-border-color {
   border-color: var(--primary-color);
 }
-.primary-link {
+/*.primary-link {
   border-radius: 4px;
   padding: 20px 15px;
   text-decoration: none;
@@ -107,13 +123,24 @@ p {
   background: var(--primary-color);
   box-shadow: var(--box-shadow);
   color: white;
-}
+}*/
+
 @media (max-width: 400px) {
   .bigsize {
     font-size: 48px;
   }
   .biggersize {
     font-size: 36px;
+  }
+  h1 {
+    font-size: 44px;
+  }
+  h2 {
+    font-size: 44px;
+    line-height: 1;
+  }
+  .hero {
+    padding: 80px 20px;
   }
   .navigation-links {
     display: block;
@@ -130,5 +157,9 @@ p {
     display: block;
     text-align: center;
     margin: 0 20px;
+  }
+  .project-description {
+    padding: 0;
+    text-align: center;
   }
 }
