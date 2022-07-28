@@ -4,13 +4,14 @@ font-family: 'League Spartan', sans-serif;
 font-family: 'Noto Sans Display', sans-serif;
 font-family: 'Play', sans-serif;*/
 :root {
-  --branding-color: #e3fba2;
-  --secondary-color: pink;
+  --branding-color: #d3fc62;
+  --secondary-color: rgb(253, 181, 194);
   --heading-font-family: "Play", sans-serif;
   --default-font-family: "Poppins", sans-serif;
 }
 body {
   font-family: var(--default-font-family);
+  background-color: #eae7dc;
 }
 h1 {
   font-family: var(--heading-font-family);
@@ -24,7 +25,7 @@ h1 {
 }
 .hero p {
   font-size: 36px;
-
+  color: #272142;
   font-weight: bold;
   margin: 0;
 }
@@ -47,8 +48,8 @@ h1 {
   line-height: 27px;
   padding: 15px 30px;
   border-radius: 4px;
-  color: var(--branding-color);
-  border: 1px solid var(--branding-color);
+  color: rgb(253, 181, 194);
+  border: 2px solid var(--branding-color);
 }
 p {
   font-weight: normal;
@@ -59,7 +60,10 @@ p {
   font-size: 64px;
 }
 .project-description {
-  padding: 120px 60px;
+  padding: 60px 60px 120px 60px;
+}
+.appscreen {
+  padding: 60px 60px 120px 60px;
 }
 .navigation-links {
   display: flex;
