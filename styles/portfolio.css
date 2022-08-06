@@ -19,11 +19,12 @@ h1 {
   line-height: 1.5;
 }
 .hero {
-  background: rgb(253, 162, 184);
+  background: rgb(253, 154, 178);
   background: radial-gradient(
     circle,
-    rgba(253, 162, 184, 1) 40%,
-    rgba(233, 231, 227, 1) 70%
+    rgba(253, 154, 178, 1) 46%,
+    rgba(205, 250, 86, 1) 55%,
+    rgba(233, 231, 227, 1) 62%
   );
   text-align: center;
   padding: 160px 20px;
@@ -46,14 +47,20 @@ h1 {
 .section-content {
   margin: 30px;
 }
-.content-container h1 {
+.section-content h1 {
   font-size: 64px;
   line-height: 80px;
   font-family: var(--heading-font-family);
 }
-.content-container p {
-  font-size: 18px;
+.section-content p {
+  font-size: 14px;
   font-family: var(--default-font-family);
+}
+.section-content h3 {
+  font-size: 24px;
+  line-height: 1;
+  font-family: var(--default-font-family);
+  margin: 20px 0;
 }
 .btn-branding {
   border-radius: 4px;
