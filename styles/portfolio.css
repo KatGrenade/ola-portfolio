@@ -52,6 +52,10 @@ h1 {
   line-height: 80px;
   font-family: var(--heading-font-family);
 }
+.section-content h2 {
+  font-size: 18px;
+  font-family: var(--default-font-family);
+}
 .section-content p {
   font-size: 14px;
   font-family: var(--default-font-family);
@@ -198,7 +202,7 @@ p {
     padding: 0;
     text-align: center;
   }
-  .content-container {
+  .section-content {
     text-align: center;
     padding: 0;
   }
