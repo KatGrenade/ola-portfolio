@@ -5,7 +5,7 @@ font-family: 'Noto Sans Display', sans-serif;
 font-family: 'Play', sans-serif;*/
 :root {
   --branding-color: #d3fc62;
-  --secondary-color: rgb(253, 181, 194);
+  --secondary-color: #fd9ab2;
   --heading-font-family: "Play", sans-serif;
   --default-font-family: "Poppins", sans-serif;
 }
@@ -19,7 +19,12 @@ h1 {
   line-height: 1.5;
 }
 .hero {
-  background: var(--secondary-color);
+  background: rgb(253, 162, 184);
+  background: radial-gradient(
+    circle,
+    rgba(253, 162, 184, 1) 40%,
+    rgba(233, 231, 227, 1) 70%
+  );
   text-align: center;
   padding: 160px 20px;
 }
@@ -52,7 +57,7 @@ h1 {
 }
 .btn-branding {
   border-radius: 4px;
-  color: beige;
+  color: white;
   background: var(--branding-color);
   font-size: 18px;
   line-height: 27px;
@@ -63,7 +68,7 @@ h1 {
   line-height: 27px;
   padding: 15px 30px;
   border-radius: 4px;
-  color: rgb(253, 181, 194);
+  color: #fd9ab2;
   border: 2px solid var(--branding-color);
 }
 p {
