@@ -85,8 +85,12 @@ h1 {
   line-height: 27px;
   padding: 15px 30px;
   border-radius: 4px;
-  color: #fd9ab2;
+  color: var(--secondary-color);
   border: 2px solid var(--branding-color);
+  text-decoration: none;
+}
+.btn-branding-outline:hover {
+  color: var(--branding-color);
 }
 p {
   font-weight: normal;
@@ -167,6 +171,18 @@ nav li {
   display: inline;
   list-style: none;
   line-height: 42px;
+  margin-left: 15px;
+}
+nav li.active a {
+  color: var(--branding-color);
+}
+nav a {
+  text-decoration: none;
+  color: #272142;
+}
+nav a:hover {
+  color: var(--branding-color);
+  transition: all 100ms ease-in-out;
 }
 /*.primary-link {
   border-radius: 4px;
@@ -223,5 +239,16 @@ nav li {
   .section-content {
     text-align: center;
     padding: 0;
+  }
+  nav a {
+    font-size: 14px;
+  }
+  .logo {
+    width: 50px;
+  }
+}
+@media (max-width: 576px) {
+  .logo {
+    width: 70px;
   }
 }
