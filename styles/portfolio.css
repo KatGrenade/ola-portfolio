@@ -22,7 +22,7 @@ h1 {
   font-size: 96px;
   line-height: 1.5;
 }
-h4 {
+h3 {
   font-size: 48px;
   font-family: var(--heading-font-family);
 }
@@ -35,7 +35,7 @@ h4 {
     rgba(233, 231, 227, 1) 62%
   );
   text-align: center;
-  padding: 160px 20px;
+  padding: 100px 20px;
 }
 .hero p {
   font-size: 36px;
@@ -50,7 +50,7 @@ h4 {
   line-height: 1.5;
 }
 .content-container {
-  padding: 160px 20px;
+  padding: 60px 20px;
 }
 .section-content {
   margin: 30px;
